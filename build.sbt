@@ -6,5 +6,5 @@ ThisBuild / githubWorkflowPublishTargetBranches := Seq()
 enablePlugins(JmhPlugin)
 
 libraryDependencies ++= Seq(
-  "org.typelevel" %% "cats-effect" % "3.2.0",
-  "dev.zio"       %% "zio" % "2.0.0-M1")
+  "org.typelevel" %% "cats-effect" % "3.2.4",
+  "dev.zio"       %% "zio" % "2.0.0-M2")
